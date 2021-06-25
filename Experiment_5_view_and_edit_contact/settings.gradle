@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Experiment_5_view_and_edit_contact"
