@@ -33,51 +33,59 @@
         android:ems="10"
         android:inputType="number"
         android:textSize="20dp"/>
+
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="173dp">
+        android:layout_height="300dp">
+
         <RadioButton
             android:id="@+id/addno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20dp"
-            android:text="Add" />
+            android:text="Add"
+            android:textSize="20dp" />
+
         <RadioButton
             android:id="@+id/subno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20dp"
-            android:text="Subtract" />
+            android:text="Subtract"
+            android:textSize="20dp" />
+
         <RadioButton
             android:id="@+id/mulno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20dp"
-            android:text="Multiply" />
+            android:text="Multiply"
+            android:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/divno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20dp"
-            android:text="Divide" />
+            android:text="Divide"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20dp"
-            android:text="Result " />
+            android:text="Result "
+            android:textSize="20dp" />
     </RadioGroup>
+
     <Button
         android:id="@+id/calculate"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:insetLeft="100dp"
+        android:insetTop="50dp"
+        android:onClick="calculateButtonClick"
         android:text="Calculate"
-        android:onClick="calculateButtonClick"/>
+        android:textSize="20sp" />
 </LinearLayout>

@@ -1,0 +1,10 @@
+day,temperature,windspeed,event
+21-07-2021,25,,Rainy
+22-07-2021,20,7,Sunny
+23-07-2021,,2,mostly cloudy
+24-07-2021,21,7,Thunderstorm
+25-07-2021,32,4,
+26-07-2021,31,2,Sunny
+26-07-2021,,,Thunderstorm
+30-07-2021,23,,Humid
+02-08-2021,,,Sunny
